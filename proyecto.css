@@ -1,0 +1,46 @@
+h1{color: #40E0D0;border-style: dotted;font-family: "Algerian";font-size: 5em;text-shadow: 2px 2px 1px white}
+img{max-width: 15%;max-height: 15%; border-style:dashed solid;border-color: #009999;}
+body{background-color: black;text-align: center;}
+button{
+	background-color: #000000;color: cyan;float: center;padding: 10px;border-radius: 10px;
+    -moz-border-radius: 10px;-webkit-border-radius: 10px;font-size: 1em;
+}
+strong{color:#5F9EA0;}
+#datos{
+			width: 100%;
+			margin: 0px auto;
+			font-size: 1.6em;
+			text-align: center;
+		}
+		section{
+			padding: 10px;
+			color: teal;
+			-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;
+		}
+		section{
+			float:left;
+			width: 70%;
+		}
+@media screen and (max-width: 980px){
+			.datos{
+				width: 98%;
+			}
+			section{
+				width: 68%;
+				font-size: 1.2em;
+			}
+		}
+@media screen and (max-width: 700px){
+			section{
+				float: none;
+				width: 96%;
+			}
+		}
+@media screen and (max-width: 480px){
+			section{
+				font-size: 1.5em;
+			}
+			section{
+				width: 94%;
+			}
+		}
